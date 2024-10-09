@@ -1,0 +1,32 @@
+MODEL:
+  model_name: PseTNet
+  n_ctx: 32
+  clip_params_path: './model/PseTNet/text_part/CLIP/ViT-B-16.pt'
+
+DATASET:
+  dataset_name: Spineweb-16
+  num_classes: 2
+  keywords: 'vertebrae'
+
+  root: './datasets/Spineweb-16/'
+  image_subfile: 'image'
+  mask_subfile: 'mask'
+
+TRAIN:
+  device: 'cuda:0'
+  random_seed: 666
+
+  train_data_ratio: 1.0
+
+  batch_size: 8
+  num_workers: 4
+  epochs: 90
+  lr: 0.0003
+  warmup_lr: 0.00003
+  warmup_epoch: 10
+  patience: 10
+
+  print_freq: 20
+  start_epoch: 0
+  save_best: True
+  amp: False
