@@ -20,11 +20,11 @@ TRAIN:
 
   batch_size: 8
   num_workers: 4
-  epochs: 90
+  epochs: 500
   lr: 0.0003
   warmup_lr: 0.00003
-  warmup_epoch: 10
-  patience: 10
+  warmup_epoch: 20
+  patience: 50
 
   print_freq: 20
   start_epoch: 0
