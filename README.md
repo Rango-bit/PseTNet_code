@@ -51,3 +51,13 @@ If you want to train the PseTNet model on different datasets, please modify the 
 + CUDA/CUDNN
 + pytorch>=1.7.1
 + torchvision>=0.8.2
+
+## Cite
+@inproceedings{he2024learning,
+  title={Learning Task-Level Pseudo-Text Prompt for Improved Medical Image Segmentation},
+  author={He, Zhu and Liu, Yaru and Yang, Guangjing and Bao, Xueqi and Chai, Yufei and Lao, Qicheng},
+  booktitle={2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages={3262--3267},
+  year={2024},
+  organization={IEEE}
+}
