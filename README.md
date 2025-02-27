@@ -52,7 +52,8 @@ If you want to train the PseTNet model on different datasets, please modify the 
 + pytorch>=1.7.1
 + torchvision>=0.8.2
 
-## Cite
+## Citation
+```
 @inproceedings{he2024learning,
   title={Learning Task-Level Pseudo-Text Prompt for Improved Medical Image Segmentation},
   author={He, Zhu and Liu, Yaru and Yang, Guangjing and Bao, Xueqi and Chai, Yufei and Lao, Qicheng},
@@ -61,3 +62,4 @@ If you want to train the PseTNet model on different datasets, please modify the 
   year={2024},
   organization={IEEE}
 }
+```
